@@ -29,7 +29,7 @@ void cipher(string u_input)
     string ToPrint(Result.begin(), Result.end());
     cout << ToPrint << endl;
 }
-
+//Called every time the user wants to encrpyt. 
 
 
 int main()
