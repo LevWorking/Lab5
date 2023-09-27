@@ -15,13 +15,13 @@ void cipher(string u_input)
 
     for (int i = 0; i < u_input.length(); i++) {
 
-        if (u_input[i] >= 64 && u_input[i] <= 90)
+        if (u_input[i] >= 65 && u_input[i] <= 90)
         {
-            Result.push_back(Cipher[u_input[i] - 64]);
+            Result.push_back(Cipher[u_input[i] - 65]);
         }
-        else if (u_input[i] >= 96 && u_input[i] < 122)
+        else if (u_input[i] >= 97 && u_input[i] <= 122)
         {
-            Result.push_back(tolower(Cipher[u_input[i] - 96]));
+            Result.push_back(tolower(Cipher[u_input[i] - 97]));
         }
         else { Result.push_back(u_input[i]); }
     }
